@@ -14,6 +14,8 @@
 		CDCFF706226F15FD00C59068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCFF704226F15FD00C59068 /* LaunchScreen.storyboard */; };
 		CDCFF711226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF710226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift */; };
 		CDCFF71C226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF71B226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift */; };
+		CDCFF72C226F1CE500C59068 /* CurlCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF72B226F1CE500C59068 /* CurlCalc.swift */; };
+		CDCFF72E226F20FA00C59068 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF72D226F20FA00C59068 /* SWXMLHash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CDCFF717226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BK_WaehrungskalkulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCFF71B226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BK_WaehrungskalkulatorUITests.swift; sourceTree = "<group>"; };
 		CDCFF71D226F15FD00C59068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCFF72B226F1CE500C59068 /* CurlCalc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurlCalc.swift; sourceTree = "<group>"; };
+		CDCFF72D226F20FA00C59068 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWXMLHash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				CDCFF702226F15FD00C59068 /* Assets.xcassets */,
 				CDCFF704226F15FD00C59068 /* LaunchScreen.storyboard */,
 				CDCFF707226F15FD00C59068 /* Info.plist */,
+				CDCFF72D226F20FA00C59068 /* SWXMLHash.swift */,
+				CDCFF72B226F1CE500C59068 /* CurlCalc.swift */,
 			);
 			path = BK_Waehrungskalkulator;
 			sourceTree = "<group>";
@@ -257,6 +263,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCFF6FE226F15FB00C59068 /* ViewController.swift in Sources */,
+				CDCFF72E226F20FA00C59068 /* SWXMLHash.swift in Sources */,
+				CDCFF72C226F1CE500C59068 /* CurlCalc.swift in Sources */,
 				CDCFF6FC226F15FB00C59068 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
