@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDCFF6FC226F15FB00C59068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF6FB226F15FB00C59068 /* AppDelegate.swift */; };
+		CDCFF6FE226F15FB00C59068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF6FD226F15FB00C59068 /* ViewController.swift */; };
+		CDCFF701226F15FB00C59068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCFF6FF226F15FB00C59068 /* Main.storyboard */; };
+		CDCFF703226F15FD00C59068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDCFF702226F15FD00C59068 /* Assets.xcassets */; };
+		CDCFF706226F15FD00C59068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCFF704226F15FD00C59068 /* LaunchScreen.storyboard */; };
+		CDCFF711226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF710226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift */; };
+		CDCFF71C226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF71B226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDCFF70D226F15FD00C59068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCFF6F0226F15FB00C59068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCFF6F7226F15FB00C59068;
+			remoteInfo = BK_Waehrungskalkulator;
+		};
+		CDCFF718226F15FD00C59068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDCFF6F0226F15FB00C59068 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDCFF6F7226F15FB00C59068;
+			remoteInfo = BK_Waehrungskalkulator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CDCFF6F8226F15FB00C59068 /* BK_Waehrungskalkulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BK_Waehrungskalkulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCFF6FB226F15FB00C59068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CDCFF6FD226F15FB00C59068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CDCFF700226F15FB00C59068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDCFF702226F15FD00C59068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CDCFF705226F15FD00C59068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CDCFF707226F15FD00C59068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCFF70C226F15FD00C59068 /* BK_WaehrungskalkulatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BK_WaehrungskalkulatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCFF710226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BK_WaehrungskalkulatorTests.swift; sourceTree = "<group>"; };
+		CDCFF712226F15FD00C59068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDCFF717226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BK_WaehrungskalkulatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDCFF71B226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BK_WaehrungskalkulatorUITests.swift; sourceTree = "<group>"; };
+		CDCFF71D226F15FD00C59068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDCFF6F5226F15FB00C59068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF709226F15FD00C59068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF714226F15FD00C59068 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDCFF6EF226F15FB00C59068 = {
+			isa = PBXGroup;
+			children = (
+				CDCFF6FA226F15FB00C59068 /* BK_Waehrungskalkulator */,
+				CDCFF70F226F15FD00C59068 /* BK_WaehrungskalkulatorTests */,
+				CDCFF71A226F15FD00C59068 /* BK_WaehrungskalkulatorUITests */,
+				CDCFF6F9226F15FB00C59068 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDCFF6F9226F15FB00C59068 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFF6F8226F15FB00C59068 /* BK_Waehrungskalkulator.app */,
+				CDCFF70C226F15FD00C59068 /* BK_WaehrungskalkulatorTests.xctest */,
+				CDCFF717226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDCFF6FA226F15FB00C59068 /* BK_Waehrungskalkulator */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFF6FB226F15FB00C59068 /* AppDelegate.swift */,
+				CDCFF6FD226F15FB00C59068 /* ViewController.swift */,
+				CDCFF6FF226F15FB00C59068 /* Main.storyboard */,
+				CDCFF702226F15FD00C59068 /* Assets.xcassets */,
+				CDCFF704226F15FD00C59068 /* LaunchScreen.storyboard */,
+				CDCFF707226F15FD00C59068 /* Info.plist */,
+			);
+			path = BK_Waehrungskalkulator;
+			sourceTree = "<group>";
+		};
+		CDCFF70F226F15FD00C59068 /* BK_WaehrungskalkulatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFF710226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift */,
+				CDCFF712226F15FD00C59068 /* Info.plist */,
+			);
+			path = BK_WaehrungskalkulatorTests;
+			sourceTree = "<group>";
+		};
+		CDCFF71A226F15FD00C59068 /* BK_WaehrungskalkulatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CDCFF71B226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift */,
+				CDCFF71D226F15FD00C59068 /* Info.plist */,
+			);
+			path = BK_WaehrungskalkulatorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDCFF6F7226F15FB00C59068 /* BK_Waehrungskalkulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCFF720226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_Waehrungskalkulator" */;
+			buildPhases = (
+				CDCFF6F4226F15FB00C59068 /* Sources */,
+				CDCFF6F5226F15FB00C59068 /* Frameworks */,
+				CDCFF6F6226F15FB00C59068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BK_Waehrungskalkulator;
+			productName = BK_Waehrungskalkulator;
+			productReference = CDCFF6F8226F15FB00C59068 /* BK_Waehrungskalkulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDCFF70B226F15FD00C59068 /* BK_WaehrungskalkulatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCFF723226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_WaehrungskalkulatorTests" */;
+			buildPhases = (
+				CDCFF708226F15FD00C59068 /* Sources */,
+				CDCFF709226F15FD00C59068 /* Frameworks */,
+				CDCFF70A226F15FD00C59068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCFF70E226F15FD00C59068 /* PBXTargetDependency */,
+			);
+			name = BK_WaehrungskalkulatorTests;
+			productName = BK_WaehrungskalkulatorTests;
+			productReference = CDCFF70C226F15FD00C59068 /* BK_WaehrungskalkulatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CDCFF716226F15FD00C59068 /* BK_WaehrungskalkulatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDCFF726226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_WaehrungskalkulatorUITests" */;
+			buildPhases = (
+				CDCFF713226F15FD00C59068 /* Sources */,
+				CDCFF714226F15FD00C59068 /* Frameworks */,
+				CDCFF715226F15FD00C59068 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDCFF719226F15FD00C59068 /* PBXTargetDependency */,
+			);
+			name = BK_WaehrungskalkulatorUITests;
+			productName = BK_WaehrungskalkulatorUITests;
+			productReference = CDCFF717226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDCFF6F0226F15FB00C59068 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Benedikt Kurz";
+				TargetAttributes = {
+					CDCFF6F7226F15FB00C59068 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					CDCFF70B226F15FD00C59068 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDCFF6F7226F15FB00C59068;
+					};
+					CDCFF716226F15FD00C59068 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = CDCFF6F7226F15FB00C59068;
+					};
+				};
+			};
+			buildConfigurationList = CDCFF6F3226F15FB00C59068 /* Build configuration list for PBXProject "BK_Waehrungskalkulator" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDCFF6EF226F15FB00C59068;
+			productRefGroup = CDCFF6F9226F15FB00C59068 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDCFF6F7226F15FB00C59068 /* BK_Waehrungskalkulator */,
+				CDCFF70B226F15FD00C59068 /* BK_WaehrungskalkulatorTests */,
+				CDCFF716226F15FD00C59068 /* BK_WaehrungskalkulatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDCFF6F6226F15FB00C59068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFF706226F15FD00C59068 /* LaunchScreen.storyboard in Resources */,
+				CDCFF703226F15FD00C59068 /* Assets.xcassets in Resources */,
+				CDCFF701226F15FB00C59068 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF70A226F15FD00C59068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF715226F15FD00C59068 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDCFF6F4226F15FB00C59068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFF6FE226F15FB00C59068 /* ViewController.swift in Sources */,
+				CDCFF6FC226F15FB00C59068 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF708226F15FD00C59068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFF711226F15FD00C59068 /* BK_WaehrungskalkulatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDCFF713226F15FD00C59068 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDCFF71C226F15FD00C59068 /* BK_WaehrungskalkulatorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDCFF70E226F15FD00C59068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCFF6F7226F15FB00C59068 /* BK_Waehrungskalkulator */;
+			targetProxy = CDCFF70D226F15FD00C59068 /* PBXContainerItemProxy */;
+		};
+		CDCFF719226F15FD00C59068 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDCFF6F7226F15FB00C59068 /* BK_Waehrungskalkulator */;
+			targetProxy = CDCFF718226F15FD00C59068 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDCFF6FF226F15FB00C59068 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCFF700226F15FB00C59068 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDCFF704226F15FD00C59068 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDCFF705226F15FD00C59068 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDCFF71E226F15FD00C59068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CDCFF71F226F15FD00C59068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDCFF721226F15FD00C59068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_Waehrungskalkulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-Waehrungskalkulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CDCFF722226F15FD00C59068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_Waehrungskalkulator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-Waehrungskalkulator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CDCFF724226F15FD00C59068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_WaehrungskalkulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-WaehrungskalkulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BK_Waehrungskalkulator.app/BK_Waehrungskalkulator";
+			};
+			name = Debug;
+		};
+		CDCFF725226F15FD00C59068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_WaehrungskalkulatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-WaehrungskalkulatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BK_Waehrungskalkulator.app/BK_Waehrungskalkulator";
+			};
+			name = Release;
+		};
+		CDCFF727226F15FD00C59068 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_WaehrungskalkulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-WaehrungskalkulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BK_Waehrungskalkulator;
+			};
+			name = Debug;
+		};
+		CDCFF728226F15FD00C59068 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7J4BBK9MYX;
+				INFOPLIST_FILE = BK_WaehrungskalkulatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SZ.BK-WaehrungskalkulatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BK_Waehrungskalkulator;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDCFF6F3226F15FB00C59068 /* Build configuration list for PBXProject "BK_Waehrungskalkulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFF71E226F15FD00C59068 /* Debug */,
+				CDCFF71F226F15FD00C59068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFF720226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_Waehrungskalkulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFF721226F15FD00C59068 /* Debug */,
+				CDCFF722226F15FD00C59068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFF723226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_WaehrungskalkulatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFF724226F15FD00C59068 /* Debug */,
+				CDCFF725226F15FD00C59068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDCFF726226F15FD00C59068 /* Build configuration list for PBXNativeTarget "BK_WaehrungskalkulatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDCFF727226F15FD00C59068 /* Debug */,
+				CDCFF728226F15FD00C59068 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDCFF6F0226F15FB00C59068 /* Project object */;
+}
