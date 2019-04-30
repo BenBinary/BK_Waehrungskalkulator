@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD3FD24622787E9D00B76D78 /* CalcVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD3FD24522787E9D00B76D78 /* CalcVC.swift */; };
 		CDCFF6FC226F15FB00C59068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF6FB226F15FB00C59068 /* AppDelegate.swift */; };
 		CDCFF6FE226F15FB00C59068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDCFF6FD226F15FB00C59068 /* ViewController.swift */; };
 		CDCFF701226F15FB00C59068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDCFF6FF226F15FB00C59068 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD3FD24522787E9D00B76D78 /* CalcVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalcVC.swift; sourceTree = "<group>"; };
 		CDCFF6F8226F15FB00C59068 /* BK_Waehrungskalkulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BK_Waehrungskalkulator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDCFF6FB226F15FB00C59068 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CDCFF6FD226F15FB00C59068 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				CDCFF707226F15FD00C59068 /* Info.plist */,
 				CDCFF72D226F20FA00C59068 /* SWXMLHash.swift */,
 				CDCFF72B226F1CE500C59068 /* CurlCalc.swift */,
+				CD3FD24522787E9D00B76D78 /* CalcVC.swift */,
 			);
 			path = BK_Waehrungskalkulator;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDCFF6FE226F15FB00C59068 /* ViewController.swift in Sources */,
+				CD3FD24622787E9D00B76D78 /* CalcVC.swift in Sources */,
 				CDCFF72E226F20FA00C59068 /* SWXMLHash.swift in Sources */,
 				CDCFF72C226F1CE500C59068 /* CurlCalc.swift in Sources */,
 				CDCFF6FC226F15FB00C59068 /* AppDelegate.swift in Sources */,

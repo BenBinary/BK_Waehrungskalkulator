@@ -65,7 +65,7 @@
         <!--Umrechnung-->
         <scene sceneID="abz-Sb-axM">
             <objects>
-                <viewController id="qe2-9t-mOY" sceneMemberID="viewController">
+                <viewController id="qe2-9t-mOY" customClass="CalcVC" customModule="BK_Waehrungskalkulator" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GRH-8O-p0e">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

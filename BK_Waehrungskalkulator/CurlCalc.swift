@@ -74,11 +74,43 @@ class CurlCalc {
             }
             
         }
-        
+        /*
+ 
+         keine gültigen Daten gefunden
+         warum auch immer: Defaults verwenden
+         
+         Defaultwerte s.u.
+         */
         rates = ["EUR": 1.0]
         let formatter = DateFormatter()
         formatter.dateFormat = "yyyy-MM-dd H:mm"
         lastUpdate = formatter.date(from: "1900-01-01 12:00")!
+        
+    }
+    
+ 
+    
+    func convert(_ value: Double, from: String?, to: String?) -> Double {
+        
+        if from == nil || to == nil { return 0.0 }
+        
+        if let ratefrom = rates[from!], let rateto = rates[to!] {
+            return value / ratefrom * rateto
+        } else {
+            return 0.0
+        }
+    
+    }
+    
+    static func getCountryFromCurrency(_ currency:String) -> String {
+        
+        if currency.count <= 2 {
+            return currency.lowercased()
+        }
+        
+        let start = currency.startIndex
+        let end = currency.index(currency.startIndex, offsetBy: 1)
+        return currency[start...end].lowercased()
         
     }
 
